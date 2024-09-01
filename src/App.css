@@ -1,0 +1,84 @@
+.home, .profile, .matches, .chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.profile input, .profile textarea {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.profile button {
+  padding: 10px 20px;
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.matches ul {
+  list-style: none;
+  padding: 0;
+}
+
+.matches li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.matches img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat .messages {
+  height: 200px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+
+.chat input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.chat button {
+  padding: 10px 20px;
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
