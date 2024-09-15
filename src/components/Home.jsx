@@ -29,6 +29,7 @@ const Home = ({ profiles }) => {
                             className="card"
                         >
                             <h3>{profile.name}</h3>
+                            <h4>{profile.age}</h4>
                         </div>
                     </TinderCard>
                 ))}
@@ -43,6 +44,7 @@ Home.propTypes = {
         PropTypes.shape({
             name: PropTypes.string.isRequired,
             imgUrl: PropTypes.string.isRequired,
+            age: PropTypes.string.isRequired,
         })
     ).isRequired,
 };
